@@ -2133,7 +2133,7 @@ external_url 'https://gitlab.clouone.net'
 # Let's Encrypt integration
 ################################################################################
 # letsencrypt['enable'] = nil
-# letsencrypt['contact_emails'] = [] # This should be an array of email addresses to add as contacts
+letsencrypt['contact_emails'] = ['allofphcloudonesupportteam@dl.trendmicro.com']
 # letsencrypt['group'] = 'root'
 # letsencrypt['key_size'] = 2048
 # letsencrypt['owner'] = 'root'
