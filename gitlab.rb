@@ -2133,7 +2133,7 @@ nginx['redirect_http_to_https_port'] = 80
 # Let's Encrypt integration
 ################################################################################
 # letsencrypt['enable'] = nil
-letsencrypt['contact_emails'] = ['allofphcloudonesupportteam@dl.trendmicro.com']
+# letsencrypt['contact_emails'] = []
 # letsencrypt['group'] = 'root'
 # letsencrypt['key_size'] = 2048
 # letsencrypt['owner'] = 'root'
