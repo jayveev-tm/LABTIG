@@ -2132,17 +2132,17 @@ nginx['redirect_http_to_https_port'] = 80
 ################################################################################
 # Let's Encrypt integration
 ################################################################################
-# letsencrypt['enable'] = nil
+letsencrypt['enable'] = true
 # letsencrypt['contact_emails'] = []
 # letsencrypt['group'] = 'root'
 # letsencrypt['key_size'] = 2048
 # letsencrypt['owner'] = 'root'
 # letsencrypt['wwwroot'] = '/var/opt/gitlab/nginx/www'
 # See http://docs.gitlab.com/omnibus/settings/ssl.html#automatic-renewal for more on these sesttings
-# letsencrypt['auto_renew'] = true
-# letsencrypt['auto_renew_hour'] = 0
-# letsencrypt['auto_renew_minute'] = nil # Should be a number or cron expression, if specified.
-# letsencrypt['auto_renew_day_of_month'] = "*/4"
+letsencrypt['auto_renew'] = true
+letsencrypt['auto_renew_hour'] = 0
+letsencrypt['auto_renew_minute'] = nil # Should be a number or cron expression, if specified.
+letsencrypt['auto_renew_day_of_month'] = "*/4"
 
 ##! Turn off automatic init system detection. To skip init detection in
 ##! non-docker containers. Recommended not to change.
